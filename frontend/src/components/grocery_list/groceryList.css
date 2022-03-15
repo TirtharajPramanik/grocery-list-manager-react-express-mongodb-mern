@@ -1,0 +1,78 @@
+.grocery-list {
+	max-width: min(20em, var(--bg-wd-sm));
+	min-width: 16em;
+	margin: auto;
+}
+
+.card {
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	padding: 1em;
+	border: solid;
+	border-radius: 1em;
+	backdrop-filter: blur(1em) saturate(120%);
+	filter: drop-shadow(0.1em 0.1em 0.1em #4444);
+	box-shadow: 0.1em 0.1em 0.2em 0.1em #4444;
+}
+
+.card:hover {
+	box-shadow: 0.1em 0.1em 0.2em 0.4em #4444;
+}
+
+.time {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 1em;
+}
+
+.gap {
+	margin-right: 0.5em;
+}
+
+.is-done,
+.not-done {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.is-done:hover {
+	filter: drop-shadow(0.1em 0.1em 0.2em lime);
+}
+
+.not-done:hover {
+	filter: drop-shadow(0.1em 0.1em 0.2em crimson);
+}
+
+.card-footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.card-title {
+	text-align: center;
+	color: #effd;
+}
+
+.edit-card:hover {
+	filter: drop-shadow(0.1em 0.1em 0.2em green);
+	cursor: pointer;
+}
+
+.delete-card:hover {
+	filter: drop-shadow(0.1em 0.1em 0.2em crimson);
+	cursor: pointer;
+}
+
+.time > h1 {
+	font-size: 2em;
+}
+
+h1,
+h2 {
+	text-transform: capitalize;
+}

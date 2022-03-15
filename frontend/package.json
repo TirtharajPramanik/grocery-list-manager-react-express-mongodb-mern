@@ -1,0 +1,50 @@
+{
+	"name": "grocery-list-ui",
+	"version": "1.0.0",
+	"description": "Grocery list react ui.",
+	"main": "index.js",
+	"private": "true",
+	"proxy": "http://127.0.0.1:8000/api/v1/grocery/",
+	"scripts": {
+		"start": "react-scripts start",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "grocery-list-manager-react-express-mongodb-mern"
+	},
+	"keywords": [
+		"mern",
+		"grocery",
+		"list",
+		"manager",
+		"react",
+		"express",
+		"mongodb",
+		"mongoose"
+	],
+	"author": "Tirtharaj Pramanik",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^0.26.1",
+		"dayjs": "^1.10.8",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
+		"react-icons": "^4.3.1"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"react-scripts": "^5.0.0"
+	}
+}

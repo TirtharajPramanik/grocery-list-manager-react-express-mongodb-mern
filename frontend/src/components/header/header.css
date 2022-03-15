@@ -1,0 +1,14 @@
+.heading {
+	text-align: center;
+	font-size: max(5vw, 3rem);
+	padding: 1em 0;
+}
+
+.grocery-bag-logo {
+	filter: drop-shadow(0.1em 0.1em 0.1em #4444);
+	cursor: pointer;
+}
+
+.grocery-bag-logo:hover {
+	filter: drop-shadow(0.1em 0.2em 0.2em rgba(0, 128, 0, 0.6));
+}

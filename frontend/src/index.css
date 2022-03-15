@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+* {
+	font-family: 'Hubballi', cursive;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	transition: all 400ms ease;
+}
+
+:root {
+	--bg-wd-sm: 90%;
+	--bg-wd-md: 86%;
+	--bg-wd-lg: 75%;
+	--bg-wd-xl: 60%;
+}
+
+.container {
+	max-width: var(--bg-wd-sm);
+	margin: auto;
+}
+
+@media screen and (min-width: 576px) {
+	.container {
+		max-width: var(--bg-wd-md);
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.container {
+		max-width: var(--bg-wd-lg);
+	}
+}
